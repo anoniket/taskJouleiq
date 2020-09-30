@@ -362,8 +362,25 @@ margin-bottom: 18%;
 
 .fourth .coverup2 .container{
   position: relative;
-    right: 18%;
+    
     margin-left: 0;
+}
+
+.fourth .coverup2 .container .row .col-lg-4{
+  
+  margin-bottom: 50px;
+}
+
+.fourth .coverup2 .container .flip-card{
+ width: auto;
+ margin:0;
+}
+
+.fourth .coverup2 .container .flip-card .flip-card-back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 
@@ -389,5 +406,12 @@ margin-bottom: 18%;
 footer{
   height: 630px;
 }
+
+
+footer iframe{
+  
+ width: 380px !important;
+}
+
 
 }
